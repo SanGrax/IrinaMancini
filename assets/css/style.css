@@ -1,16 +1,9 @@
-/**
-* Template Name: Resi
-* Template URL: https://bootstrapmade.com/resi-free-bootstrap-html-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #444444;
 }
 
@@ -30,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -43,7 +36,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5a5af3;
+  background: #FF0022;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -57,7 +50,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #8080f6;
+  background: #11190C;
   color: #fff;
 }
 
@@ -72,7 +65,7 @@ h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 5px 0;
   background: #fff;
 }
 
@@ -97,7 +90,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 100px;
 }
 
 @media (max-width: 992px) {
@@ -135,9 +128,11 @@ h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 15px;
-  color: #434175;
+  color: #11190C ;
   white-space: nowrap;
   transition: 0.3s;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500; /* Medium */
 }
 
 .navbar a i,
@@ -151,7 +146,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #5a5af3;
+  color: #FF0022;
 }
 
 .navbar .getstarted,
@@ -159,14 +154,15 @@ h6 {
   padding: 6px 25px;
   margin-left: 30px;
   border-radius: 50px;
-  color: #5a5af3;
-  border: 2px solid #5a5af3;
+  color: #fff;
+  border: 2px solid #FF0022;
+  background-color: #FF0022;
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #7272f5;
+  background: #11190C;
 }
 
 .navbar .dropdown ul {
@@ -360,10 +356,11 @@ h6 {
 #hero h1 {
   margin: 0;
   font-size: 48px;
-  font-weight: 400;
+  font-weight: 800; /* ExtraBold */
   line-height: 56px;
-  color: #434175;
-  font-family: "Poppins", sans-serif;
+  /* color: #434175; */
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  
 }
 
 #hero h2 {
@@ -375,11 +372,14 @@ h6 {
   margin-top: 15px;
   list-style: none;
   padding: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500; /* Medium */
 }
 
 #hero ul li {
   padding: 10px 0 0 28px;
   position: relative;
+
 }
 
 #hero ul i {
@@ -405,25 +405,31 @@ h6 {
 }
 
 #hero .btn-get-started {
-  background: #5a5af3;
+  background: #ff0022;
   color: #fff;
-  border: 2px solid #5a5af3;
+  border: 2px solid #ff0022;
   margin-right: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500; /* Medium */
 }
 
 #hero .btn-get-started:hover {
-  background: #7272f5;
+  background: #11190C;
   border-color: #7272f5;
 }
 
 #hero .btn-get-quote {
-  color: #5a5af3;
-  border: 2px solid #5a5af3;
+  background: #ff0022;
+  color: #fff;
+  border: 2px solid #ff0022;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500; /* Medium */
 }
 
 #hero .btn-get-quote:hover {
-  background: #5a5af3;
+  background: #11190C;
   color: #fff;
+  border-color: #7272f5;
 }
 
 @media (min-width: 1024px) {
@@ -495,6 +501,8 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 800;
 }
 
 .section-title h2 {
@@ -504,7 +512,9 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #434175;
+  color: #11190C;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 200;
 }
 
 .section-title h2::after {
@@ -513,35 +523,41 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #5a5af3;
+  background: #FF0022;
   bottom: 0;
   left: calc(50% - 25px);
 }
 
 .section-title p {
   margin-bottom: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500; /* Medium */
 }
 
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 .about .content h2 {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 44px;
   line-height: 50px;
   margin-bottom: 20px;
-  color: #434175;
+  /* color: #434175; */
+  font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 .about .content h3 {
-  font-weight: 500;
+  font-weight: 400;
   line-height: 32px;
   font-size: 24px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 .about .content ul {
   list-style: none;
   padding: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500; /* Medium */
 }
 
 .about .content ul li {
@@ -554,11 +570,16 @@ section {
   top: 7px;
   position: absolute;
   font-size: 20px;
-  color: #5a5af3;
+  color: #FF0022;
 }
 
 .about .content p:last-child {
   margin-bottom: 0;
+  
+}
+.about .container P {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500; /* Medium */
 }
 
 /*--------------------------------------------------------------
@@ -578,26 +599,29 @@ section {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #b9b9fa;
+  color: #11190C ;
 }
 
 .why-us .box h4 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 800; /* ExtraBold */ 
   font-size: 24px;
-  font-weight: 600;
   padding: 0;
   margin: 20px 0;
-  color: #434175;
+  color: #FF0022;
 }
 
 .why-us .box p {
-  color: #aaaaaa;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500; /* Medium */
+  color: #CAC4B7;
   font-size: 15px;
   margin: 0;
   padding: 0;
 }
 
 .why-us .box:hover {
-  background: #5a5af3;
+  background: #11190C ;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
@@ -1386,7 +1410,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #5a5af3;
+  background: #FF0022;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1395,7 +1419,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #7272f5;
+  background: #11190C;
 }
 
 @keyframes animate-loading {
@@ -1486,7 +1510,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  color: #5a5af3;
+  color: #11190C;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1500,7 +1524,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #434175;
+  color: #11190C;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1517,7 +1541,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #5a5af3;
+  color: #FF0022;
   font-size: 18px;
   line-height: 1;
 }
@@ -1606,7 +1630,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #deddec;
-  color: #434175;
+  color: #11190C;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1618,7 +1642,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #5a5af3;
+  background: #FF0022;
   color: #fff;
   text-decoration: none;
 }
